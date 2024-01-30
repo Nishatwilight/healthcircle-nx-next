@@ -1,4 +1,4 @@
-import styles from './page.module.css';
+import './global.css';
 
 export default async function Index() {
   /*
@@ -7,17 +7,17 @@ export default async function Index() {
    * Note: The corresponding styles are in the ./index.css file.
    */
   return (
-    <div className={styles.page}>
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
-            <h1>
-              <span className=''> Hello there, </span>
-              Welcome healthcircle 👋
+          <h1 className="text-3xl font-bold underline bg-red-500">
+             Hello world!
+            </h1>
+            <h1 className="bg-customText1">
+             Hello world!
             </h1>
           </div>
         </div>
       </div>
-    </div>
   );
 }

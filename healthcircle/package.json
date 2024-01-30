@@ -2,11 +2,15 @@
   "name": "@healthcircle/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "npx nx serve healthcircle"
+  },
   "private": true,
   "dependencies": {
+    "@nextui-org/react": "^2.2.9",
     "@nx/next": "17.2.8",
     "@swc/helpers": "~0.5.2",
+    "framer-motion": "^11.0.3",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
